@@ -1,0 +1,27 @@
+helpful links
+
+Get the Code https://github.com/nicknochnack/Image...
+
+Links
+Anaconda: https://www.anaconda.com/products/dis... done
+Git: https://git-scm.com/download/win
+Venv Documentation: https://docs.python.org/3/library/ven...
+Tensorflow CUDA/cuDNN Versions: https://www.tensorflow.org/install/so...
+CUDA 11.2:  https://developer.nvidia.com/cuda-11....
+cuDNN Archive: https://developer.nvidia.com/rdp/cudn...
+Visual Studio 2019: https://visualstudio.microsoft.com/vs... 
+
+
+error note to reslove 
+
+
+
+
+notes
+
+anaconda-navigator   => allows access anacond tools like jupyter based on path using Command promtpt allows gui to access labs or notebook and others
+
+jupyter lab  => directory will open it right in that directory without gui
+
+
+
