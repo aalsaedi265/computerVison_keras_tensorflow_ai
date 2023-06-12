@@ -27,3 +27,17 @@ jupyter lab  => directory will open it right in that directory without gui
 select cell => y convert to code m to markdown
 
 
+python -m venv imageClassification   => in directory run creates vritual with following name imageClassification (windows)
+
+
+if scripts are disabled due to security policy
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+Set-ExecutionPolicy -ExecutionPolicy Restricted
+
+.\imageClassification\Scripts\activate.bat => will activate the VE
+
+pip install ipykernel   => link vene to jupyter
+
+python - m ipykernel install --name=imageClassification   => kernals are aligned and things are talkng to each other specific the V E that I wanted 
+
+python - m ipykernel uninstall imageClassification  => removed it from VE
