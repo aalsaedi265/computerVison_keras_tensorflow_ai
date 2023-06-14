@@ -5,7 +5,7 @@ Get the Code https://github.com/nicknochnack/Image...
 Links
 Anaconda: https://www.anaconda.com/products/dis... done
 Git: https://git-scm.com/download/win              done
-Venv Documentation: https://docs.python.org/3/library/ven...
+Venv Documentation: https://docs.python.org/3/library/ven... done
 Tensorflow CUDA/cuDNN Versions: https://www.tensorflow.org/install/so...
 CUDA 11.2:  https://developer.nvidia.com/cuda-11....
 cuDNN Archive: https://developer.nvidia.com/rdp/cudn...
@@ -34,10 +34,14 @@ if scripts are disabled due to security policy
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 Set-ExecutionPolicy -ExecutionPolicy Restricted
 
-.\imageClassification\Scripts\activate.bat => will activate the VE
+.\ImageClassification\imageClassification\Scripts\activate=> will activate the VE
 
 pip install ipykernel   => link vene to jupyter
 
-python - m ipykernel install --name=imageClassification   => kernals are aligned and things are talkng to each other specific the V E that I wanted 
+python - m ipykernel install --name=imageClassification   => VE name imageClassification will be kernal to be used in the jupyter lab 
 
-python - m ipykernel uninstall imageClassification  => removed it from VE
+python - m ipykernel uninstall imageClassification  => remove VE from Kernals
+
+crt + s   to save jupyter lab
+
+pip install tensorflow opencv-python matplotlib
