@@ -37,3 +37,6 @@ python - m ipykernel uninstall imageClassification  => remove VE from Kernals
 crt + s   to save jupyter lab
 
 pip install tensorflow opencv-python matplotlib
+
+
+google extension download all images reall good to get data for modeling 
