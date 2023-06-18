@@ -10,33 +10,42 @@ error note to reslove
 
 
 notes
+  HARD OG WAY TO GET ACCESS IF THING ARE NOT COPPERATING 
+====>>>>>      anaconda-navigator   <========== allows access anacond tools like jupyter based on path using Command promtpt allows gui to access labs or notebook and others
 
-anaconda-navigator   => allows access anacond tools like jupyter based on path using Command promtpt allows gui to access labs or notebook and others
-
-jupyter lab  => directory will open it right in that directory without gui
-
+jupyter lab  => directory will open it right in that directory without gu
 
 select cell => y convert to code m to markdown
 
 
+CREATE VENV
 python -m venv imageClassification   => in directory run creates vritual with following name imageClassification (windows)
 
-
+ERROR
 if scripts are disabled due to security policy
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 Set-ExecutionPolicy -ExecutionPolicy Restricted
 
+if jupyter lab is having hard time
+conda update jupyterlab
+
+
+ACTIVATE
 .\ImageClassification\imageClassification\Scripts\activate=> will activate the VE
+
+deactivate => turn off
+
+LINK VENV TO JUPYTER
 
 pip install ipykernel   => link vene to jupyter
 
-python - m ipykernel install --name=imageClassification   => VE name imageClassification will be kernal to be used in the jupyter lab 
+python -m ipykernel install --name=imageClassification   => VE name imageClassification will be kernal to be used in the jupyter lab 
 
-python - m ipykernel uninstall imageClassification  => remove VE from Kernals
+python -m ipykernel uninstall imageClassification  => remove VE from Kernals
+
+
 
 crt + s   to save jupyter lab
-
 pip install tensorflow opencv-python matplotlib
-
 
 google extension download all images reall good to get data for modeling 
