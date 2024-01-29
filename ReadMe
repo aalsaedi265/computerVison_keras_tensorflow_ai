@@ -29,7 +29,7 @@ conda update jupyterlab
 
 
 ACTIVATE
-.\ImageClassification\imageClassification\Scripts\activate=> will activate the VE
+.\envName\Scripts\activate
 
 deactivate => turn off
 
@@ -37,9 +37,7 @@ LINK VENV TO JUPYTER
 
 py -m pip install ipykernel => link vene to jupyter
 
-py -m ipykernel install --name= jupyter 
-
-py -m ipykernel install --name=
+py -m ipykernel install --name=envName
 
 py -m jupyter kernelspec list
 py -m jupyter kernelspec uninstall
