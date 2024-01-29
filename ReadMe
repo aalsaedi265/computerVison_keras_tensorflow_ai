@@ -13,7 +13,7 @@ notes
 
 jupyter lab  => directory will open it right in that directory without gu
 
-select cell => y convert to code m to markdown
+BOTH NEED TO BE RAN IN ANACONDA PROMPT
 
 
 CREATE VENV
@@ -35,13 +35,19 @@ deactivate => turn off
 
 LINK VENV TO JUPYTER
 
-pip install ipykernel   => link vene to jupyter
+py -m pip install ipykernel => link vene to jupyter
 
-python -m ipykernel install --name=imageClassification   => VE name imageClassification will be kernal to be used in the jupyter lab 
+py -m ipykernel install --name= jupyter 
 
-python -m ipykernel uninstall imageClassification  => remove VE from Kernals
+py -m ipykernel install --name=
+
+py -m jupyter kernelspec list
+py -m jupyter kernelspec uninstall
 
 
+PYTHON 3.11+ from now on use
+  python.exe 
+  py -m
 
 crt + s   to save jupyter lab
 pip install tensorflow opencv-python matplotlib
